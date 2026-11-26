@@ -1,0 +1,30 @@
+{
+  "note": "Paid API prices in USD per 1 million tokens, standard (not batch or fast) rates, read 15 Nov 2026 from ai.google.dev/gemini-api/docs/pricing, developers.openai.com/api/docs/pricing and Anthropic's model price list. Output includes thinking or reasoning tokens. A model can list several prices; the one with the latest 'from' date that has already started applies. 'setups' are the screen-model and judge-model pairs compared on the dashboard; add or edit them freely.",
+  "models": {
+    "gemini-3.5-flash-lite": [{ "input": 0.3, "output": 2.5 }],
+    "gemini-3.6-flash": [
+      { "input": 0.75, "output": 3.75 },
+      { "from": "2027-01-01", "input": 1.5, "output": 7.5 }
+    ],
+    "gemini-3.8-flash": [
+      { "input": 0.75, "output": 3.75 },
+      { "from": "2027-01-01", "input": 1.5, "output": 7.5 }
+    ],
+    "gpt-6-luna": [{ "input": 0.1, "output": 0.5 }],
+    "gpt-6.1-terra": [{ "input": 1, "output": 5 }],
+    "gpt-6.1-sol": [{ "input": 2, "output": 10 }],
+    "gpt-6-astra": [{ "input": 10, "output": 50 }],
+    "claude-haiku-5-5": [{ "input": 0.1, "output": 0.5 }],
+    "claude-sonnet-5-5": [{ "input": 2, "output": 10 }],
+    "claude-opus-5-5": [{ "input": 4, "output": 20 }]
+  },
+  "setups": [
+    { "provider": "Gemini", "screen": "gemini-3.5-flash-lite", "judge": "gemini-3.6-flash" },
+    { "provider": "OpenAI", "screen": "gpt-6-luna", "judge": "gpt-6-luna" },
+    { "provider": "OpenAI", "screen": "gpt-6-luna", "judge": "gpt-6.1-terra" },
+    { "provider": "OpenAI", "screen": "gpt-6-luna", "judge": "gpt-6.1-sol" },
+    { "provider": "Anthropic", "screen": "claude-haiku-5-5", "judge": "claude-haiku-5-5" },
+    { "provider": "Anthropic", "screen": "claude-haiku-5-5", "judge": "claude-sonnet-5-5" },
+    { "provider": "Anthropic", "screen": "claude-haiku-5-5", "judge": "claude-opus-5-5" }
+  ]
+}
