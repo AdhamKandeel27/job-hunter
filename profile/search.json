@@ -1,0 +1,91 @@
+{
+  "targetRoles": [
+    "Software engineer roles: backend, frontend, full-stack, web or mobile development",
+    "AI engineer roles: building LLM, agent, RAG or machine-learning features and systems"
+  ],
+  "titleFilter": {
+    "mustInclude": [
+      "engineer", "engineers", "engineering", "developer", "developers", "programmer", "software", "swe",
+      "full stack", "fullstack", "backend", "back end", "frontend", "front end",
+      "ai", "ml", "llm", "machine learning", "genai", "web", "mobile", "android", "ios",
+      "react", "node", "nodejs", "python", "java", "javascript", "typescript", "php", "laravel", "django",
+      "dotnet", "golang", "flutter"
+    ],
+    "exclude": [
+      "civil", "mechanical", "electrical", "site engineer", "sales", "presales", "pre sales",
+      "account manager", "account executive", "business development", "customer", "marketing",
+      "recruiter", "talent", "designer", "qa", "qc", "quality", "tester", "testing", "test", "sdet",
+      "support", "help desk", "it specialist", "accountant", "teacher", "instructor", "writer",
+      "data entry", "manager", "supervisor", "director", "head of", "vp", "vice president"
+    ]
+  },
+  "careers": [
+    { "ats": "greenhouse", "board": "gitlab", "name": "GitLab" },
+    { "ats": "greenhouse", "board": "canonical", "name": "Canonical" },
+    { "ats": "greenhouse", "board": "grafanalabs", "name": "Grafana Labs" },
+    { "ats": "greenhouse", "board": "mozilla", "name": "Mozilla" },
+    { "ats": "greenhouse", "board": "wikimedia", "name": "Wikimedia Foundation" },
+    { "ats": "greenhouse", "board": "automatticcareers", "name": "Automattic" },
+    { "ats": "greenhouse", "board": "xapo61", "name": "Xapo Bank" },
+    { "ats": "greenhouse", "board": "sourcegraph91", "name": "Sourcegraph" },
+    { "ats": "greenhouse", "board": "tailscale", "name": "Tailscale" },
+    { "ats": "greenhouse", "board": "consensys", "name": "Consensys" },
+    { "ats": "greenhouse", "board": "jetbrains", "name": "JetBrains" },
+    { "ats": "greenhouse", "board": "typeform", "name": "Typeform" },
+    { "ats": "greenhouse", "board": "planetscale", "name": "PlanetScale" },
+    { "ats": "ashby", "board": "posthog", "name": "PostHog" },
+    { "ats": "ashby", "board": "supabase", "name": "Supabase" },
+    { "ats": "ashby", "board": "n8n", "name": "n8n" },
+    { "ats": "ashby", "board": "linear", "name": "Linear" },
+    { "ats": "ashby", "board": "zapier", "name": "Zapier" },
+    { "ats": "ashby", "board": "1password", "name": "1Password" },
+    { "ats": "ashby", "board": "kraken.com", "name": "Kraken" },
+    { "ats": "ashby", "board": "sanity", "name": "Sanity" },
+    { "ats": "ashby", "board": "airbyte", "name": "Airbyte" },
+    { "ats": "ashby", "board": "elevenlabs", "name": "ElevenLabs" },
+    { "ats": "ashby", "board": "temporal", "name": "Temporal" },
+    { "ats": "ashby", "board": "sentry", "name": "Sentry" },
+    { "ats": "ashby", "board": "docker", "name": "Docker" },
+    { "ats": "ashby", "board": "clickhouse", "name": "ClickHouse" },
+    { "ats": "ashby", "board": "deepl", "name": "DeepL" },
+    { "ats": "ashby", "board": "synthesia", "name": "Synthesia" },
+    { "ats": "ashby", "board": "livekit", "name": "LiveKit" },
+    { "ats": "ashby", "board": "coder", "name": "Coder" },
+    { "ats": "ashby", "board": "safe", "name": "Safe" },
+    { "ats": "ashby", "board": "oyster", "name": "Oyster" },
+    { "ats": "ashby", "board": "andela", "name": "Andela" },
+    { "ats": "ashby", "board": "resend", "name": "Resend" },
+    { "ats": "ashby", "board": "railway", "name": "Railway" },
+    { "ats": "ashby", "board": "render", "name": "Render" },
+    { "ats": "ashby", "board": "langchain", "name": "LangChain" },
+    { "ats": "ashby", "board": "close", "name": "Close" },
+    { "ats": "ashby", "board": "helpscout", "name": "Help Scout" },
+    { "ats": "ashby", "board": "buffer", "name": "Buffer" },
+    { "ats": "lever", "board": "gohighlevel", "name": "HighLevel" },
+    { "ats": "lever", "board": "toptal", "name": "Toptal" },
+    { "ats": "lever", "board": "metabase", "name": "Metabase" },
+    { "ats": "lever", "board": "mactores", "name": "Mactores" },
+    { "ats": "lever", "board": "gate", "name": "Gate" },
+    { "ats": "lever", "board": "offchainlabs", "name": "Offchain Labs" }
+  ],
+  "himalayas": [
+    { "q": "software engineer" },
+    { "q": "ai engineer" }
+  ],
+  "jobgether": [
+    { "keyword": "software engineer", "locations": "egypt" },
+    { "keyword": "ai engineer", "locations": "egypt" },
+    { "keyword": "software engineer", "locations": "anywhere" },
+    { "keyword": "ai engineer", "locations": "anywhere" }
+  ],
+  "wuzzuf": [
+    {
+      "url": "https://wuzzuf.net/a/Software-Engineering-Jobs-in-Egypt",
+      "note": "Listed on Wuzzuf's software engineering jobs in Egypt page"
+    },
+    {
+      "url": "https://wuzzuf.net/a/Remote-Jobs-in-Egypt",
+      "note": "Listed on Wuzzuf's remote jobs in Egypt page"
+    }
+  ]
+}
