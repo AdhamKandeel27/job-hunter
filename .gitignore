@@ -1,0 +1,14 @@
+node_modules/
+.next/
+next-env.d.ts
+tsconfig.tsbuildinfo
+.env
+out/
+logs/
+# Personal data: your résumé and stored answers stay on this machine.
+profile/resume.md
+profile/answers.json
+profile/*.pdf
+# Project write-ups kept local.
+Remote job agent system design.md
+job-hunter-implementation-v1.md
